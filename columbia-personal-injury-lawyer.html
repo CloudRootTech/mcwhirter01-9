@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en" class="text-center">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>McWhirter, Bellinger & Associates, P.A. | Columbia Personal Injury Lawyer</title>
+    <meta name="description" content="Columbia Personal Injury Lawyer">
+    <meta name="theme-color" content="#0d296b">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://cdn-ilenajf.nitrocdn.com/lpuEwIJCdKilbswRJDeyRrkijVEGcEbc/assets/images/optimized/rev-0a84446/www.mcwhirterlaw.com/wp-content/themes/mcwhirter-redesign/assets/favicon/favicon-96x96.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="McWhirter, Bellinger & Associates, P.A. | Columbia Personal Injury Lawyer">
+    <meta property="og:description" content="Columbia Personal Injury Lawyer">
+    <meta property="og:image" content="project-media/158/Mcwhiter01.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" as="image" href="project-media/158/Mcwhiter01.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+    /* Ensure visually-hidden works even if Bootstrap CSS fails to load */
+    .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    :root {
+        --brand:#0d296b;
+        --brand-600:#0b235b;
+        --ink:#0f172a;
+        --surface:#f7f9fc;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+        margin-top: 0;
+        font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background-color: #0e0e0e;
+        color: var(--ink);
+    }
+
+    .hero-title, h1, h2, h3 {
+        font-family: "Playfair Display", serif;
+        letter-spacing: .2px;
+    }
+    .hero-title { font-size: clamp(2.6rem, 6vw, 4rem); }
+    h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+
+    a.inline-link { text-decoration: underline; text-underline-offset: 3px; }
+
+    #mainHeader {
+        position: fixed; top: 0; right: 0; left: 0; z-index: 2000;
+        background: rgba(13,41,107,0);
+        transition: background-color .3s ease, box-shadow .3s ease, backdrop-filter .3s ease, border-color .3s ease;
+        border-bottom: 1px solid transparent;
+    }
+    #mainHeader.scrolled {
+        background: rgba(13,41,107,.65);
+        box-shadow: 0 6px 18px rgba(0,0,0,.25);
+        backdrop-filter: saturate(140%) blur(10px);
+        border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .hero-section { padding-top: 100px; position: relative; color: #fff; overflow: hidden; min-height: 400px; }
+    .hero-section::before {
+        content:""; position:absolute; inset:0;
+        background: radial-gradient(1200px 600px at 60% 20%, rgba(255,255,255,.07), transparent 60%),
+                   linear-gradient(to bottom, rgba(0,0,0,.32), rgba(0,0,0,.52));
+        pointer-events:none;
+    }
+    .hero-title { font-weight: 700; margin-bottom: .5rem; text-shadow: 0 2px 18px rgba(0,0,0,.28); }
+
+    .accent { position: relative; display: inline-block; padding-bottom: .25rem; }
+    .accent::after {
+        content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -12px;
+        width: 72px; height: 2px; border-radius: 999px;
+        background: linear-gradient(90deg, rgba(255,255,255,.0) 0%, #ffffff 50%, rgba(255,255,255,.0) 100%);
+        opacity: .95;
+    }
+    .accent-dark::after {
+        background: linear-gradient(90deg, rgba(13,41,107,0) 0%, var(--brand) 50%, rgba(13,41,107,0) 100%);
+    }
+
+    .section-wrap { padding: 2rem; position:relative; }
+    .section-inner { max-width: 70ch; margin: 0 auto; text-align: left; }
+    .prose p {
+        font-size: 1.05rem; line-height: 1.9; letter-spacing: .01em; margin-bottom: 1.15rem;
+        color: #0f0f10; text-align: justify;
+    }
+    .section-wrap:not(:first-child)::before {
+        content:""; position:absolute; top:-1.5rem; left:0; right:0; height:1px;
+        background: linear-gradient(90deg, transparent, rgba(13,41,107,.12), transparent);
+    }
+
+    .figure { border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 22px rgba(0,0,0,.15); }
+    .figure img { display: block; width: 100%; height: auto; transition: transform .28s ease; }
+    .figure:hover img { transform: scale(1.015); }
+
+    .btn-ghost {
+        display: inline-flex; align-items: center; gap: .6rem;
+        padding: .68rem 1.15rem; border: 1px solid rgba(255,255,255,.85); color: #fff;
+        background: rgba(255,255,255,.085); border-radius: 999px;
+        backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+        box-shadow: 0 10px 28px rgba(0,0,0,.25); text-decoration: none; font-weight: 600; letter-spacing: .02em;
+        transition: transform .15s ease, background .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.15); border-color: #ffffff; transform: translateY(-1px); box-shadow: 0 12px 28px rgba(0,0,0,.32); }
+    .btn-ghost i { transition: transform .18s ease; }
+    .btn-ghost:hover i { transform: translateX(4px); }
+    .btn-ghost:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
+    .btn-ghost:active { transform: translateY(0); }
+
+    #mainHeader a { color:#fff; text-decoration:none; }
+
+    .header-icon {
+        display:inline-flex; align-items:center; justify-content:center;
+        width:40px; height:40px; border-radius:999px; margin-left:.5rem;
+        color:#fff; text-decoration:none; outline-offset:2px;
+    }
+    .header-icon i { font-size:1.5rem; line-height:1; }
+    .header-icon:focus-visible { outline:2px solid #fff; }
+    @media (hover:hover){ .header-icon:hover{ background: rgba(255,255,255,.12); } }
+
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    .footer-link { text-decoration: none; }
+    .footer-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    footer { position: relative; background: #0c0c0c; }
+    footer::before {
+        content:""; position:absolute; top:0; left:0; right:0; height:2px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent); opacity:.6;
+    }
+
+    a:focus-visible, button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+    #services { scroll-margin-top: 110px; }
+
+    @media (prefers-reduced-motion: reduce) {
+        .reveal, .figure img, .btn-ghost, .accent::after { transition: none; animation: none; }
+        html { scroll-behavior: auto; }
+    }
+
+    #backToTop { position: fixed; right: 16px; bottom: 16px; z-index: 1040; display: none; }
+    </style>
+</head>
+<body class="bg-dark text-dark">
+
+    <header id="mainHeader" class="text-white py-3 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-start mb-0">
+                <a href="#" class="text-white text-decoration-none" aria-label="Columbia Personal Injury Lawyer home">Columbia Personal Injury Lawyer</a>
+            </h1>
+            <div><a href="https://www.facebook.com/McWhirterLaw" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a><a href="https://www.linkedin.com/company/mcwhirterlaw/" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i><span class="visually-hidden">LinkedIn</span></a></div>
+        </div>
+    </header>
+
+    <section class="hero-section"
+             style="background-image: url('project-media/158/Mcwhiter01.jpg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+      <div class="container hero-content"
+           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">
+        <div class="d-flex flex-column align-items-center text-center">
+          <h2 class="hero-title accent mb-3">McWhirter, Bellinger & Associates, P.A.</h2>
+          <a href="#services" class="btn-ghost" role="button" aria-label="Read more about services">
+            Read More <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main style="background-color: #ffffff;">
+        <div class="container py-5" style="margin-top:0;">
+            <div id="services" class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Understanding Civil Case Milestones</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>A legal dispute generally starts with a complaint filed in the appropriate court. It identifies the claimant's allegations, the legal basis for relief, and the remedy sought. Proper service then gives the responding party notice and starts a deadline for an answer or preliminary motion. A <a href="https://sfo3.digitaloceanspaces.com/lawfirm/mcwhirter01/columbia-personal-injury-lawyer.html" class="inline-link">Columbia Personal Injury Lawyer</a> can explain how filing and service affect that deadline, while a Columbia Personal Injury Lawyer may clarify the purpose of scheduling notices and early court orders.</p>
+                            <p>Once the pleadings are in place, discovery often becomes the main source of exchanged information. Written questions, document requests, and depositions can narrow disputed facts, while case-management conferences and motions address issues that require a ruling before trial. A Columbia Personal Injury Lawyer may help organize discovery responses around court deadlines, and a Columbia Personal Injury Lawyer can explain what to expect from hearings or evidentiary disputes.</p>
+                            <p>Negotiation or mediation may resolve the matter before trial, but unresolved issues can proceed to a hearing where the decision-maker considers admissible proof. A judgment may establish an amount owed, a required action, or another remedy, and enforcement can involve additional court procedures. A Columbia Personal Injury Lawyer can help a party compare these options and identify the questions that deserve attention as the proceeding reaches its conclusion.</p>
+                            <figure class="figure mt-4">
+                                <img src="project-media/159/Mcwhiter02.jpg" loading="lazy" decoding="async" alt="Columbia Personal Injury Lawyer image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color: var(--brand);">
+                            <span class="accent accent-dark">When To Hire Injury Counsel</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>When an injury leads to substantial medical needs, missed work, or uncertainty about responsibility, obtaining legal guidance early can help protect important options. Speaking with Columbia Personal Injury Lawyer may clarify which parties could be involved and whether the circumstances warrant further review. It can also help a person respond thoughtfully to an insurer or other representative rather than making rushed decisions. Even when the situation seems straightforward, Columbia Personal Injury Lawyer can offer perspective on issues that may not be apparent at the outset.</p>
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <p>The need for advice may become more pressing when an insurer disputes responsibility, delays meaningful payment, or asks for a broad release before the extent of harm is known. In that setting, Columbia Personal Injury Lawyer can explain the practical significance of proposed communications and settlement terms. Legal input may also be useful when an accident involves commercial activity, unsafe property, a defective product, or several potentially responsible parties. Consulting Columbia Personal Injury Lawyer can help clarify next steps while medical treatment and daily obligations continue.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9 mx-auto" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
+                                        <iframe src="https://www.youtube.com/channel/UC5G4M0Wl3YcHiYDKnCDbsuw/featured" loading="lazy" title="Columbia Personal Injury Lawyer video" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>There is no universal point at which a person must seek counsel, and a short introductory discussion can be useful even if no immediate legal action is planned. The right timing depends on the seriousness of the injury, the clarity of responsibility, communications from insurers, and the possibility of lasting financial effects. By choosing Columbia Personal Injury Lawyer, an injured person can better understand available options and make decisions with a clearer view of the risks and practical consequences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Evaluating Attorney Trial Experience</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>Choosing counsel for a contested matter requires more than counting years in practice. A useful conversation with Columbia Personal Injury Lawyer should explore how often the attorney has handled comparable hearings, jury selection, witness examination, and closing arguments. Ask Columbia Personal Injury Lawyer which responsibilities the attorney personally managed and which were assigned to colleagues, because a firm's overall profile may not reflect the lawyer who would appear in court.</p>
+                            <p>Courtroom readiness is also reflected in preparation habits. Columbia Personal Injury Lawyer should be able to describe methods for analyzing testimony, organizing exhibits, preserving objections, and responding when a proceeding takes an unexpected turn. Questions for Columbia Personal Injury Lawyer can address how the attorney communicates strategy, explains uncertainty, and adjusts an approach when new evidence or rulings alter the available options.</p>
+                            <p>Past outcomes deserve context rather than isolated attention. A responsible discussion should distinguish settlements from verdicts, identify the lawyer's role, and acknowledge that each dispute turns on its own facts, governing law, and decision makers. References from former clients or professional peers may offer additional insight into preparation, candor, and follow-through, while a direct meeting with Columbia Personal Injury Lawyer can show whether the working relationship feels clear and respectful.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 reveal">
+                  <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                  <span class="accent accent-dark">
+                  <i class="bi bi-geo-alt" style="margin-right:.5rem;"></i>McWhirter, Bellinger & Associates, P.A.</span>
+                  </h2>
+
+                    <div class="mb-4 ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.3698394235707!2d-81.025239!3d34.0087165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a52ea906935d%3A0x4852cccb003c38ec!2sMcWhirter%2C%20Bellinger%20%26%20Associates%2C%20P.A.%20Attorneys%20at%20Law!5e0!3m2!1sen!2sin!4v1791352896511!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <p class="fw-bold" style="color: #000000;">McWhirter, Bellinger & Associates, P.A.</p>
+                    <p style="color: #000000;">"Columbia
+1807 Hampton Street Columbia, SC 29201"</p>
+                    <p style="color: #000000;">888-353-5513 (803-252-5523)</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white bg-dark mt-5">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">McWhirter, Bellinger & Associates, P.A.</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="Columbia-Personal-Injury-Lawyer.html" rel="noopener">McWhirter, Bellinger & Associates, P.A.</a></li>    <li><a class="link-light footer-link" href="https://www.mcwhirterlaw.com/" rel="noopener">https://www.mcwhirterlaw.com/</a></li>    <li><a class="link-light footer-link" href="" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">https://www.mcwhirterlaw.com/</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="" rel="noopener"></a></li>    <li><a class="link-light footer-link" href="https://www.mcwhirterlaw.com/" rel="noopener"></a></li>    <li><a class="link-light footer-link" href="https://maps.app.goo.gl/2ckMgawncwQGe3wFA" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Follow us on Social Media</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="https://www.facebook.com/McWhirterLaw" rel="noopener">Facebook</a></li>    <li><a class="link-light footer-link" href="https://www.youtube.com/channel/UC5G4M0Wl3YcHiYDKnCDbsuw/featured" rel="noopener">Youtube Channel (Not Video Link)</a></li>    <li><a class="link-light footer-link" href="https://www.linkedin.com/company/mcwhirterlaw/" rel="noopener">Linkedin</a></li>  </ul></div>
+            </div>
+            <div class="mt-4">
+                
+<section class="safe-news-wall" aria-label="South Carolina , United States">
+  <style>
+    .safe-news-wall { background:#f4f4f6; color:#333; padding:18px 12px 24px; border-radius:2px; }
+    .safe-news-wall h2 { margin:0 0 16px; color:#111; text-align:center; font-family:Arial, sans-serif; font-size:28px; line-height:1.2; font-weight:400; }
+    .safe-news-grid { column-count:4; column-gap:14px; }
+    .safe-news-card { display:inline-block; width:100%; break-inside:avoid; margin:0 0 14px; padding:18px; background:#fff; border:1px solid #ddd; border-radius:4px; color:#333; text-align:left; text-decoration:none; box-sizing:border-box; }
+    .safe-news-card:hover { color:#333; text-decoration:none; box-shadow:0 4px 16px rgba(66,66,66,.16); }
+    .safe-news-card h3 { margin:0 0 14px; color:#333; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; font-weight:700; letter-spacing:0; }
+    .safe-news-card img { display:block; width:100%; height:auto; margin:0 0 14px; object-fit:cover; }
+    .safe-news-card p { margin:0 0 16px; color:#444; font-family:Arial, sans-serif; font-size:18px; line-height:1.55; }
+    .safe-news-meta { color:#8396a8; font-family:Arial, sans-serif; font-size:15px; line-height:1.4; }
+    @media (max-width: 1100px) { .safe-news-grid { column-count:3; } }
+    @media (max-width: 800px) { .safe-news-grid { column-count:2; } }
+    @media (max-width: 560px) { .safe-news-grid { column-count:1; } .safe-news-wall h2 { font-size:24px; } .safe-news-card h3 { font-size:21px; } }
+  </style>
+  <h2>South Carolina , United States</h2>
+  <div class="safe-news-grid">
+    <a class="safe-news-card" href="https://www.wltx.com/article/news/local/state-fair/south-carolina-state-fair-cattle-farmers-beef-imports/101-a0a148bd-4585-45f4-9496-ab9f4272984c" target="_blank" rel="noopener noreferrer"><h3>Beef imports spark concerns among cattle farmers at South Carolina State Fair</h3><img src="https://media.wltx.com/assets/WLTX/images/cbc98abc-81e4-4733-803b-89fce50e4a5e/20261023T012853/cbc98abc-81e4-4733-803b-89fce50e4a5e_1920x1080.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><div class="safe-news-meta">wltx.com - 10h</div></a><a class="safe-news-card" href="https://www.stamfordadvocate.com/sports/uconn-womens-basketball/article/dawn-staley-geno-auriemma-final-four-carolina-22490136.php" target="_blank" rel="noopener noreferrer"><h3>Dawn Staley explains Final Four spat with Geno Auriemma</h3><img src="https://s.hdnux.com/photos/01/67/55/26/31380915/3/rawImage.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Staley recalled congratulating Auriemma after UConn beat her teams by 20, 30 or 40 points.</p><div class="safe-news-meta">stamfordadvocate.com - 11h</div></a><a class="safe-news-card" href="https://www.usatoday.com/story/news/politics/2026/10/22/trump-praises-man-who-punched-protester-clemson-rally/92381254007/" target="_blank" rel="noopener noreferrer"><h3>Trump praises rallygoer for punching protester: &#x27;I loved that&#x27;</h3><img src="https://www.gannett-cdn.com/authoring/authoring-images/2026/10/21/PGRE/92371964007-1021-trump-rally-clemson-sc-speeches-1596.JPG?auto=webp&amp;crop=2399,1351,x0,y176&amp;format=pjpg&amp;width=1200" alt="" loading="lazy" referrerpolicy="no-referrer"><p>While audience members cheered as President Trump took the stage in South Carolina, numerous protests broke out within minutes of him speaking.</p><div class="safe-news-meta">usatoday.com - 16h</div></a><a class="safe-news-card" href="https://www.essentiallysports.com/wnba-basketball-news-wbb-fans-had-plenty-to-say-after-ncaa-star-chooses-dawn-staleys-south-carolina-over-lsu-just-before-the-season/" target="_blank" rel="noopener noreferrer"><h3>WBB Fans Had Plenty to Say After NCAA Star Chooses Dawn Staley’s South Carolina Over LSU Just Before the Season</h3><img src="https://image-cdn.essentiallysports.com/wp-content/uploads/imago1075493502h-e1791513302825.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Fans wasted no time in reacting to the news of a promising talent joining Dawn Staley&#x27;s South Carolina Gamecocks</p><div class="safe-news-meta">essentiallysports.com - 17h</div></a><a class="safe-news-card" href="https://travel.yahoo.com/guides/united-states/south-carolina/articles/forget-buffalo-south-carolinas-best-180314771.html" target="_blank" rel="noopener noreferrer"><h3>Forget Buffalo: South Carolina&#x27;s Best Wings Are Duck-Fat Confited and Dusted in Togarashi</h3><img src="https://s.yimg.com/lo/mysterio/api/94ecb2df51315c9f5f328c664cd5b953f3633d520b0313f95976616352314de8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fonly_in_your_state_567%2F5634e32738f2be6725ae1d4f739f3d70.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>An overnight cure, a slow bath in duck fat, and only then does the chicken meet hot oil.</p><div class="safe-news-meta">travel.yahoo.com - 18h</div></a><a class="safe-news-card" href="https://www.usatoday.com/story/news/politics/2026/10/22/trump-google-maps-atlantic-ocean-renaming/92377170007/" target="_blank" rel="noopener noreferrer"><h3>Google Maps said no to Trump renaming the Atlantic Ocean</h3><img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2026/10/22/USAT/92378875007-getty-images-2301386909.jpg?crop=5441,3061,x0,y169&amp;width=3200&amp;height=1801&amp;format=pjpg&amp;auto=webp" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Trump had earlier suggested renaming either the Atlantic or Pacific Ocean, floating names such as &quot;Trump Ocean&quot; and &quot;Ocean of the Americas.&quot;</p><div class="safe-news-meta">usatoday.com - 18h</div></a><a class="safe-news-card" href="https://yaleclimateconnections.org/2026/10/subtropical-storm-josephine-forms-in-the-atlantic/" target="_blank" rel="noopener noreferrer"><h3>Subtropical Storm Josephine forms in the Atlantic » Yale Climate Connections</h3><img src="https://yaleclimateconnections.org/wp-content/uploads/2026/10/josephine-oct22.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Damage from Josephine has closed the only highway to North Carolina&#x27;s Outer Banks; king tide flooding is predicted to bring some of the highest water levels of the past 10 years to portions of the Southeast U.S. early next week.</p><div class="safe-news-meta">yaleclimateconnections.org - 19h</div></a><a class="safe-news-card" href="https://www.newsweek.com/fact-check-was-lindsay-grahams-name-booed-at-trump-rally-12605683" target="_blank" rel="noopener noreferrer"><h3>Fact Check: Was Lindsey Graham’s Name Booed at Trump Rally?</h3><img src="https://assets.newsweek.com/wp-content/uploads/2026/10/GettyImages-2301396368.jpg?w=1200&amp;crop=1" alt="" loading="lazy" referrerpolicy="no-referrer"><p>President Donald Trump was hackled repeatedly at a rally in South Carolina on Wednesday, where he was campaigning for Darline Graham.</p><div class="safe-news-meta">newsweek.com - 19h</div></a><a class="safe-news-card" href="https://sclawyersweekly.com/news/2026/10/22/circuit-precedent-controls-crime-of-violence-classification/" target="_blank" rel="noopener noreferrer"><h3>Circuit precedent controls crime-of-violence classification</h3><img src="https://sclawyersweekly.com/files/2026/10/Courtroom2-scaled.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The 4th U.S. Circuit Court of Appeals held that South Carolina precedent addressing recklessness in other assault offenses did not displace controlling circuit</p><div class="safe-news-meta">sclawyersweekly.com - 20h</div></a><a class="safe-news-card" href="https://www.greenvilleonline.com/story/life/food/2026/10/22/south-carolina-restaurants-michelin-guide-recommends-trying-in-2026/92377072007/" target="_blank" rel="noopener noreferrer"><h3>Check out Michelin&#x27;s full guide of South Carolina restaurants to visit</h3><img src="https://www.gannett-cdn.com/presto/2022/10/12/PGRE/379f0001-e031-4328-97cb-5b3a5df599c3-PGRE_Chef_Joe_Cash07.jpg?auto=webp&amp;crop=4927,2772,x0,y0&amp;format=pjpg&amp;width=1200" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Four South Carolina restaurants retained their Michelina Stars, including in Greenville, plus others walked away with honors. Here&#x27;s where to dine.</p><div class="safe-news-meta">greenvilleonline.com - 20h</div></a><a class="safe-news-card" href="https://wpde.com/news/america-250-stories-of-south-carolina/before-the-washington-monument-robert-mills-left-his-mark-on-the-grand-strand-horry-georgetown-architect-ben-burroughs-1022026" target="_blank" rel="noopener noreferrer"><h3>Before the Washington Monument, Robert Mills left his mark on the Grand Strand</h3><img src="https://wpde.com/resources/media2/16x9/958/1320/0x3/90/2e999d14-21fd-470f-a1ae-426bebdda080-Screenshot20261022065758.png" alt="" loading="lazy" referrerpolicy="no-referrer"><div class="safe-news-meta">wpde.com - 20h</div></a><a class="safe-news-card" href="https://www.greenvilleonline.com/story/news/politics/2026/10/22/sc-voters-will-see-four-u-s-senate-candidates-on-the-nov-3-ballot/91985348007/" target="_blank" rel="noopener noreferrer"><h3>Four candidates are running for U.S. Senate; here are their priorities</h3><img src="https://www.gannett-cdn.com/authoring/authoring-images/2026/10/19/PGRE/92330841007-1019-early-voting-election-greenville-county-sc-200.JPG?auto=webp&amp;crop=2399,1351,x0,y53&amp;format=pjpg&amp;width=1200" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The four candidates running for U.S. Senate have laid out their priority issues and plans for office.</p><div class="safe-news-meta">greenvilleonline.com - 21h</div></a><a class="safe-news-card" href="https://www.dailysignal.com/2026/10/22/trump-fights-gop-apathy-in-deep-red-south-carolina/" target="_blank" rel="noopener noreferrer"><h3>Trump Fights GOP Apathy in Deep Red South Carolina</h3><img src="https://static.dailysignalmedia.org/2026/10/nar.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>South Carolina Republicans hope President Donald Trump&#x27;s Wednesday night visit can tamp down disappointment in the base over the choice of candidate, GOP</p><div class="safe-news-meta">dailysignal.com - 22h</div></a><a class="safe-news-card" href="https://www.yahoo.com/news/politics/articles/trump-missteps-gaffes-south-carolina-134202136.html" target="_blank" rel="noopener noreferrer"><h3>Trump’s missteps and gaffes at South Carolina rally raise new questions about his health</h3><img src="https://s.yimg.com/lo/mysterio/api/4af84e36519dbc90eafda15e0190947e9c217add1a33ad930dfc785864b81b0b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_635%2Fe06b67369e7b79f37474e2199e16aca3.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>At one point, he appeared to confuse the names of two different prizes that he has not won</p><div class="safe-news-meta">yahoo.com - 22h</div></a><a class="safe-news-card" href="https://www.on3.com/teams/south-carolina-gamecocks/news/south-carolina-womens-basketball-big-12-media-days-notebook/" target="_blank" rel="noopener noreferrer"><h3>South Carolina women&#x27;s basketball: Big 12 media days notebook</h3><img src="https://on3static.com/uploads/dev/assets/cms/2026/07/26150613/On3-audi-crooks-oklahoma-state-hookly.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The Big 12 held its basketball media days this week. South Carolina hosts Big 12 member Oklahoma State in its highest-profile home non-conference game this season. Here’s what the Cowgirls had to say this week.</p><div class="safe-news-meta">on3.com - 22h</div></a><a class="safe-news-card" href="https://www.independent.co.uk/news/world/americas/us-politics/trump-nobel-pulitzer-prize-south-carolina-b3071381.html" target="_blank" rel="noopener noreferrer"><h3>Trump was in South Carolina to save midterm seat — then he moaned about not winning Nobel Prize</h3><img src="https://static.independent.co.uk/2026/10/22/09/2300828259..?trim=0,41,0,41&amp;width=1200&amp;height=800&amp;crop=1200:800" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Trump also claimed that he should have won a Pulitzer Prize in addition to the Nobel Peace Prize</p><div class="safe-news-meta">independent.co.uk - 1d</div></a><a class="safe-news-card" href="https://www.wyff4.com/article/trump-south-carolina-rally/74211935" target="_blank" rel="noopener noreferrer"><h3>President Donald Trump visits South Carolina and gets interrupted several times</h3><img src="https://kubrick.htvapps.com/vidthumb/631c3f44-1a6d-4b3d-a026-e5c9970594f4/77344a72-c26d-40ed-ae9e-65fd6b29c626.jpg?crop=1xw%3A1.0xh%3Bcenter%2Ctop&amp;resize=1200%3A*" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Punches were thrown and insults hurled during President Trump&#x27;s campaign stop in South Carolina for Darline Graham.</p><div class="safe-news-meta">wyff4.com - 1d</div></a><a class="safe-news-card" href="https://www.newsweek.com/canadian-airlines-are-cutting-us-flight-routes-12603358" target="_blank" rel="noopener noreferrer"><h3>Canadian Airlines Are Cutting US Flight Routes</h3><img src="https://assets.newsweek.com/wp-content/uploads/2026/10/GettyImages-2295492543.jpg?w=1200&amp;crop=1" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Air Canada has cut five U.S. routes for 2027, including its sole service to South Carolina, a popular winter getaway.</p><div class="safe-news-meta">newsweek.com - 1d</div></a><a class="safe-news-card" href="https://thetigercu.com/31893/news/president-donald-trump-clemson-senate-darline-graham-annie-andrews/" target="_blank" rel="noopener noreferrer"><h3>Trump rallies for Graham in Clemson ahead of highly contested US Senate midterm election</h3><img src="https://thetigercu.com/wp-content/uploads/2026/10/Stehn-9774-e1792676440661.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>United States Senate candidates Darline Graham and Annie Andrews have set their sights on Clemson ahead of the midterms, and political campaigns across the state are gearing up for their final pushes before voters head to the ballot box on Nov. 3. President Donald Trump held a midterm elections rally on Wednesday at T. Ed...</p><div class="safe-news-meta">thetigercu.com - 1d</div></a><a class="safe-news-card" href="https://scdailygazette.com/2026/10/22/trump-rallies-support-for-republicans-in-pre-election-visit-to-deeply-red-upstate/" target="_blank" rel="noopener noreferrer"><h3>Trump rallies support for Republicans in pre-election visit to deeply red Upstate</h3><img src="https://scdailygazette.com/wp-content/uploads/2026/10/GettyImages-2301387130-2048x1373.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>PENDLETON — President Donald Trump rallied in the Upstate to boost GOP support for U.S. Sen. Darline Graham’s campaign, while discounting polls suggesting the seat her late brother held for almost 24 years could flip blue. The race between Graham and Democrat Annie Andrews shouldn’t be close, he told thousands of supporters in a county […]</p><div class="safe-news-meta">scdailygazette.com - 1d</div></a><a class="safe-news-card" href="https://www.tbsnews.net/world/trump-rallies-behind-darline-graham-south-carolina-senate-race-ahead-midterms-1579971" target="_blank" rel="noopener noreferrer"><h3>Trump rallies behind Darline Graham in South Carolina Senate race</h3><img src="https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/10/08/trump1.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The president initially focused on Republican attacks accusing Andrews of supporting gender-transition surgeries for transgender minors, a claim she denies. However, over the course of his</p><div class="safe-news-meta">tbsnews.net - 1d</div></a><a class="safe-news-card" href="https://www.thenationalherald.com/trump-brings-a-last-minute-rally-boost-to-darline-graham-in-south-carolinas-us-senate-race/" target="_blank" rel="noopener noreferrer"><h3>Trump Brings a Last-Minute Rally Boost to Darline Graham in South Carolina&#x27;s US Senate Race</h3><img src="https://www.thenationalherald.com/wp-content/uploads/2026/10/trump-graham-scaled.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>PENDLETON, S.C. (AP) — President Donald Trump traveled to South Carolina on Wednesday to boost U.S. Sen. Darline Graham, whose stumbles in her first campaign since replacing her late brother have Democratic voters hopeful — but not necessarily optimistic — that their candidate can break Republicans&#x27;</p><div class="safe-news-meta">thenationalherald.com - 1d</div></a><a class="safe-news-card" href="https://www.theguardian.com/us-news/2026/oct/21/trump-south-carolina-rally-darline-graham" target="_blank" rel="noopener noreferrer"><h3>‘Man, I loved that’: Trump cheers South Carolina rally attender who hit protester</h3><img src="https://i.guim.co.uk/img/media/a08dcf10df3c57b700142706e1960111355436a0/227_0_2038_1630/master/2038.jpg?width=1200&amp;height=1200&amp;quality=85&amp;auto=format&amp;fit=crop&amp;s=7df9d7b3248ae6a9ae0c7fbb32821eb9" alt="" loading="lazy" referrerpolicy="no-referrer"><p>President was reportedly heckled at least nine times during campaign event for Darline Graham</p><div class="safe-news-meta">theguardian.com - 1d</div></a><a class="safe-news-card" href="https://www.huffpost.com/entry/trump-south-carolina_n_6ad7cfb6e4b02def98691b74" target="_blank" rel="noopener noreferrer"><h3>Trump Promised To Visit Battleground Districts But Finds Himself In South Carolina Instead</h3><img src="https://img.huffingtonpost.com/asset/6ad94f1a2700005fef98a386.jpeg?cache=NI6CdNATXK&amp;ops=1200_630" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Less than two weeks from the midterms, the president is shoring up his handpicked candidate in a state that hasn’t elected a Democrat statewide in two decades.</p><div class="safe-news-meta">huffpost.com - 1d</div></a>
+  </div>
+</section>
+
+            </div>
+        </div>
+    </footer>
+
+    <a id="backToTop" href="#top" class="btn btn-light rounded-pill shadow-sm px-3 py-2" aria-label="Back to top">↑ Top</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("mainHeader");
+        var backToTop = document.getElementById("backToTop");
+        var reveals = document.querySelectorAll('.reveal');
+
+        window.addEventListener("scroll", function() {
+            var scrolled = window.scrollY > 50;
+            header.classList.toggle("scrolled", scrolled);
+            backToTop.style.display = window.scrollY > 600 ? "inline-flex" : "none";
+        });
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('visible');
+                        io.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            reveals.forEach(el => io.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('visible'));
+        }
+    });
+    </script>
+
+</body>
+</html>
